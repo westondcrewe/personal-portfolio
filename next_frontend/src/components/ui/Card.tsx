@@ -48,13 +48,12 @@ const Card: FC<CardProps> = ({
             }`}
           >
             {tagsToShow.map((tag) => (
-              <a
-                href={`/#skills`}
+              <div
                 key={tag}
                 className="bg-emerald-700 text-emerald-100 rounded px-2 py-1 text-sm hover:bg-teal-500 hover:text-teal-950 transition whitespace-nowrap"
               >
                 {tag}
-              </a>
+              </div>
             ))}
 
             {!expanded && tags.length > visibleTagsCount && (
