@@ -35,7 +35,7 @@ export default function SkillsPreview() {
       <h2 className="text-3xl font-bold mb-6 text-gray-900">Skills</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {sortedSkills.map((skill) => (
-          <SkillTile key={skill.name} skill={skill} />
+          <SkillTile key={skill.name} name={skill.name} projects={skill.projects}/>
         ))}
       </div>
     </Section>

@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     id: '2',
-    title: 'Item Sales Forecast Modeling for Wang Globalnet',
+    title: 'Item Sales Forecasting for Wang Globalnet',
     description: 'Claremont McKenna College Data Science Capstone Project - Coding Lead; Performed forecasting model hyperparameter optimization and clustering machine learning analysis on time-series item sales data to predict demand trends for 2700 food & beverage items, enabling corporate stakeholders to minimize costs with strategic purchasing behavior',
     image: '/wang_globalnet_logo.jpeg',
     link: 'https://dscapstone.cmc.edu/project/wang-globalnet-project-2/',
