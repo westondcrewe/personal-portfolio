@@ -24,6 +24,10 @@ const FeaturedProjects: FC = () => {
           />
         ))}
       </div>
+
+      <h4 className="text-xl font-bold mb-10 text-gray-900 max-w-7xl mx-auto">
+        More coming soon...
+      </h4>
     </section>
   );
 };

@@ -10,6 +10,7 @@ type NavItem = {
 };
 
 const navItems: NavItem[] = [
+  { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
@@ -22,9 +23,9 @@ const Navigation: FC = () => {
     <nav className="fixed w-full top-0 left-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo / Name */}
-        <Link href="#home" className="text-xl text-gray-700 font-bold tracking-tight">
+        {/* <Link href="#home" className="text-xl text-gray-700 font-bold tracking-tight">
           Weston Crewe
-        </Link>
+        </Link> */}
 
         {/* Desktop menu */}
         <ul className="hidden md:flex space-x-8">

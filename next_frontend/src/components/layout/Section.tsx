@@ -1,14 +1,15 @@
 'use client';
 
-import { ReactNode } from 'react';
+import { FC, ReactNode } from 'react';
 
-interface Section {
+interface SectionProps {
   children: ReactNode;
   id?: string;
   className?: string; 
 }
 
-export default function Section({ children, id, className = '' }: Section) {
+const Section: FC<SectionProps> = ({children, id, className = ''}) => {
+//export default function Section({ children, id, className = '' }: Section) {
   return (
     <section
       id={id}
@@ -17,4 +18,6 @@ export default function Section({ children, id, className = '' }: Section) {
       {children}
     </section>
   );
-}
+};
+
+export default Section;

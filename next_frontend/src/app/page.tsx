@@ -6,7 +6,7 @@ import Navigation from '../components/layout/Navigation';
 import HeroSection from '../components/sections/HeroSection';
 import FeaturedProjects from '../components/sections/FeaturedProjects';
 import SkillsPreview from '../components/sections/SkillsPreview';
-// import CTASection from '../components/sections/CTASection';
+import CTASection from '../components/sections/CTASection';
 //import BackgroundEffects from '../components/layout/BackgroundEffects';
 import Footer from '../components/layout/Footer';
 
@@ -29,7 +29,7 @@ export default function HomePage() {
           <HeroSection />
           <FeaturedProjects />
           <SkillsPreview />
-          {/* <CTASection /> */}
+          <CTASection />
         </main >
 
         <Footer />
