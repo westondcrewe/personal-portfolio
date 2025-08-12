@@ -55,11 +55,13 @@ export default function HeroSection() {
             Hi! Thanks for checking out my portfolio. I’m a new college grad,
             aspiring (unemployed) software engineer who is passionate about
             developing meaningful human connections in an increasingly digital
-            professional landscape. I am eager to join a highly dynamic team
-            where I am challenged to grow a holistic technical and professional
-            skillset by working across the stack, collaborating
-            cross-functionally, and gaining hands-on experience with the full
-            product lifecycle.
+            professional landscape. I made this portfolio initially to get my 
+            hands dirty with Next.js, but I also see it as a fun way to engage 
+            with recruiters and other new professional connections! I am eager 
+            to join a highly dynamic team where I am challenged to grow a holistic 
+            technical and professional skillset by working across the stack, 
+            collaborating cross-functionally, and gaining hands-on experience with 
+            the full product lifecycle.
           </p>
 
           {/* Social Links */}
