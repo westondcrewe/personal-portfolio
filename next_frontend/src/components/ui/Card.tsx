@@ -86,7 +86,7 @@ const Card: FC<CardProps> = ({
 
   if (link) {
     return (
-      <a
+      <Link
         href={link}
         target="_blank"
         rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const Card: FC<CardProps> = ({
         aria-label={`View project: ${title}`}
       >
         {content}
-      </a>
+      </Link>
     );
   }
 
