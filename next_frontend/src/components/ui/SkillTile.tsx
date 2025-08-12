@@ -48,7 +48,7 @@ const SkillTile: FC<SkillTileProps> = ({ name, projects }) => {
             {projects.map((proj) => (
               <li key={proj.link}>
                 <Link
-                  href={`/projects/${proj.link}`}
+                  href={`${proj.link}`}
                   className="text-gray-700 hover:text-blue-600 hover:underline"
                 >
                   {proj.title}
