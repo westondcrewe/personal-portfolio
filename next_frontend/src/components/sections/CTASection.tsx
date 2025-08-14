@@ -53,7 +53,7 @@ export default function CTASection() {
           {/* Collaborate on active projects! */}
           <div className="bg-white px-8 py-6 rounded shadow w-full mb-5">
             <h4 className="text-xl font-semibold text-stone-800 mb-4 text-center">
-              Let's work together on my active projects!
+              Let&apos;s work together on my active projects!
             </h4>
 
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
