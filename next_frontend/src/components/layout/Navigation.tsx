@@ -33,7 +33,7 @@ const Navigation: FC = () => {
             <li key={item.href}>
               <Link
                 href={item.href}
-                className="text-gray-700 hover:text-teal-600 transition-colors"
+                className="underline text-gray-700 hover:text-teal-600 transition-colors"
               >
                 {item.label}
               </Link>

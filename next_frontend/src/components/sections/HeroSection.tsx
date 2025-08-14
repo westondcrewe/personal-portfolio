@@ -46,17 +46,25 @@ export default function HeroSection() {
   return (
     <Section id="about" className="mt-10">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+
         {/* left block */}
-        <div className="flex-shrink-0 ml-5">
+        <div className="flex flex-col justify-center text-center flex-shrink-0 ml-5">
+
           {/* grad pic */}
           <Image
             src="/54585264693_27768cfc75_o.jpg"
             alt="Weston Crewe"
             width={250}
             height={200}
-            className="rounded-full border-4 border-white shadow-md"
+            className="rounded-full border-4 border-white shadow-md mb-2"
             priority
           />
+          
+          {/* education */}
+          <div className="bg-white/90 px-8 py-3 rounded shadow w-full">
+            <h3 className="text-sm font-medium text-gray-900">Claremont McKenna '25</h3>
+            <h4 className="text-xs font-noraml text-gray-800">Computer Science w/ Data Science</h4>
+          </div>
         </div>
 
         {/* middle block */}
@@ -64,7 +72,7 @@ export default function HeroSection() {
           {/* name and bio */}
           <h1 className="underline text-4xl font-bold text-gray-900 mb-4 ">Weston Crewe</h1>
           <p className="text-lg text-gray-700 mb-6">
-            Hi! Thanks for checking out my portfolio. I’m a new college grad,
+            Hi! Thanks for checking out my portfolio. I&apos;m a new college grad and
             aspiring (unemployed) software engineer who is passionate about
             developing meaningful human connections in an increasingly digital
             professional landscape. I made this portfolio initially to get my hands
@@ -73,7 +81,7 @@ export default function HeroSection() {
             eager to join a highly dynamic team where I&apos;m challenged to grow
             a holistic technical and professional skillset by working across the stack, 
             collaborating cross-functionally, and gaining hands-on experience with the
-            full product lifecycle. Feel free to reach out and we&apos;ll get in touch!
+            full product lifecycle. Feel free to reach out and I&apos;ll get in touch!
           </p>
 
           {/* Social Links */}
