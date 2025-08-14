@@ -70,10 +70,10 @@ export default function HeroSection() {
             professional landscape. I made this portfolio initially to get my hands
             dirty with Next.js web app development, but I also see it as a fun way
             to engage with recruiters and other new professional connections! I am
-            eager to join a highly dynamic team where I&quot;'m challenged to grow
+            eager to join a highly dynamic team where I&apos;m challenged to grow
             a holistic technical and professional skillset by working across the stack, 
             collaborating cross-functionally, and gaining hands-on experience with the
-            full product lifecycle. Feel free to reach out and we&quot;'ll get in touch!
+            full product lifecycle. Feel free to reach out and we&apos;ll get in touch!
           </p>
 
           {/* Social Links */}
