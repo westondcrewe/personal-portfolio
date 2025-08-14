@@ -7,7 +7,7 @@ import Card from "@/components/ui/Card";
 const FeaturedProjects: FC = () => {
   return (
     <section id="projects" className="py-16 bg-white/80 px-6 space-y-8 rounded-xl shadow-lg">
-      <h2 className="text-3xl font-bold mb-10 text-gray-900 max-w-7xl mx-auto">
+      <h2 className="underline text-3xl font-bold mb-10 text-gray-900 max-w-7xl mx-auto">
         Featured Projects
       </h2>
 
@@ -24,10 +24,6 @@ const FeaturedProjects: FC = () => {
           />
         ))}
       </div>
-
-      <h4 className="text-xl font-bold mb-10 text-gray-900 max-w-7xl mx-auto">
-        More coming soon...
-      </h4>
     </section>
   );
 };

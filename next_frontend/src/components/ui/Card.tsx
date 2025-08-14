@@ -21,7 +21,7 @@ const Card: FC<CardProps> = ({
   horizontal = false,
 }) => {
   const [expanded, setExpanded] = useState(false);
-  const visibleTagsCount = 2;
+  const visibleTagsCount = 4;
 
   const handleMouseEnter = () => setExpanded(true);
   const handleMouseLeave = () => setExpanded(false);
