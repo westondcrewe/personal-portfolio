@@ -62,7 +62,7 @@ export default function HeroSection() {
           
           {/* education */}
           <div className="bg-white/90 px-8 py-3 rounded shadow w-full">
-            <h3 className="text-sm font-medium text-gray-900">Claremont McKenna '25</h3>
+            <h3 className="text-sm font-medium text-gray-900">Claremont McKenna &apos;25</h3>
             <h4 className="text-xs font-noraml text-gray-800">Computer Science w/ Data Science</h4>
           </div>
         </div>

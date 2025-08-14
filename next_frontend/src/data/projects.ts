@@ -1,3 +1,4 @@
+// projects data - rendered in Card components on featureproject section
 export const projects = [
   {
     id: '1',
@@ -21,7 +22,7 @@ export const projects = [
       description: 'Final project for CS143 Big Data for Prof. Izbicki at CMC; Full-Stack web application development including automated data generation for dummy userbase. Functioning API endpoints for searching, posting, and creation/authenticating users. Made serveral database indexes to make nontrivial queries on 10 million rows of data run in 0.5ms',
       image: '',
       link: 'https://github.com/westondcrewe/csci143-final-project',
-      tags: ['Web App Development', 'Python', 'Docker Containerization', 'Flask', 'Database Engineering', 'PostgreSQL'],
+      tags: ['Web App Development', 'Python', 'Docker Containerization', 'Flask', 'Database Engineering', 'PostgreSQL','SQL'],
     },
     {
       id: '4',
@@ -40,7 +41,7 @@ export const projects = [
       tags: ['Data Analysis', 'Data Visualization', 'SQL'],
     },
     {
-      id: '6',
+      id: '100',
       title: 'More on GitHub, More Coming Soon...',
       description: '',
       image: '',
