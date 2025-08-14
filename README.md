@@ -13,47 +13,30 @@ This site is my central hub — part résumé, part portfolio, part playground �
 ## Features
 
 - **Modular component architecture** — Easily add, remove, or reorder portfolio sections without breaking the layout
+- **State management** - Relies on React hooks for component state management (project card components expand the skills tags while user hovers over a specific project)
 - **Responsive design** — Built with Tailwind CSS utility classes
 - **Optimized images** — Uses `next/image` for fast loading and responsive sizing
-- **Call-to-action sections** — Invite collaboration, showcase active projects, and provide quick links to my résumé and LinkedIn
-- **Project highlights** — Links to active GitHub repositories for ongoing work
 
 ---
 
 ## Tech Stack
 
 **Frontend**
-- [Next.js](https://nextjs.org/) — React framework for fast, server-rendered and statically-generated sites.
-- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS for rapid UI building.
+- [Next.js](https://nextjs.org/) — React framework for fast, server-rendered and statically-generated sites
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS for rapid UI building
 
 **Deployment**
-- [Vercel](https://vercel.com/) — Seamless hosting and CI/CD for Next.js.
+- [Vercel](https://vercel.com/) — Easy hosting and CI/CD for Next.js
 
 ---
 
 ## Sections
 
-- **Hero Section** — A welcoming intro with a headline, personal photo, and quick navigation.
-- **Call To Action (CTA)** — Center-aligned imagery, tagline, résumé download button, and collaboration invites.
-- **Project Showcase** — Highlights select GitHub repos with links and descriptions.
-- **Contact Links** — Direct access to email, LinkedIn, and other professional platforms.
-
----
-
-## Viewing the Project
-
-This repository serves as **documentation** for my personal portfolio site and as an opportunity for others to view the code, structure, and design decisions behind it.  
-
-If you’d like to see the live version, visit the link below:  
-
-**🔗 [View Live Site](https://westoncrewe-portfolio.vercel.app/)**
-
-You’re welcome to browse the source files here on GitHub to explore:
-- How sections are structured for modularity
-- How Tailwind CSS is applied for rapid styling
-- How Next.js is used for routing, image optimization, and layout
-
-Please note: This is a personal project, not an open-source template.
+- **Hero Section** — Page intro with headline, bio, photos, and interests
+- **Project Showcase** — Highlights select projects with hyperlinks, descriptions, and images
+- **Technical Skills** - Lists technical skills attributed in my projects data, listing specific projects in which particular skill is used
+- **Call To Action** — Invitation for viewers to contact me via LinkedIn and Email, download my resume, and to collaborate on my active GitHub projects
+- **Header and Footer** — Quickly navigate to specified page sections from the header; Access my email, LinkedIn, and GitHub in the footer
 
 ---
 
