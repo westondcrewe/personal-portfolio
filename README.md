@@ -4,21 +4,23 @@
 
 A personal, modular portfolio website built with **Next.js** and **Tailwind CSS**, designed to showcase my work, projects, and personality in a clean, responsive layout.
 
-This site is my central hub — part résumé, part portfolio, part playground — and serves as a live example of my frontend development skills.
+This site is my central hub — part résumé, part portfolio, part playground — and serves as a live example of my frontend development skills. I plan to continue working on this portfolio, as it is only MVP status right now. My next additions/improvements will include:
+- Additional projects
+- More dynamic and interactive UI design
 
 ---
 
-## ✨ Features
+## Features
 
-- **Modular section architecture** — Easily add, remove, or reorder portfolio sections without breaking the layout.
-- **Responsive design** — Fully mobile-friendly, built with Tailwind CSS utility classes.
-- **Optimized images** — Uses `next/image` for fast loading and responsive sizing.
-- **Call-to-action sections** — Invite collaboration, showcase active projects, and provide quick links to my résumé and LinkedIn.
-- **Project highlights** — Links to active GitHub repositories for ongoing work.
+- **Modular component architecture** — Easily add, remove, or reorder portfolio sections without breaking the layout
+- **Responsive design** — Built with Tailwind CSS utility classes
+- **Optimized images** — Uses `next/image` for fast loading and responsive sizing
+- **Call-to-action sections** — Invite collaboration, showcase active projects, and provide quick links to my résumé and LinkedIn
+- **Project highlights** — Links to active GitHub repositories for ongoing work
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**
 - [Next.js](https://nextjs.org/) — React framework for fast, server-rendered and statically-generated sites.
@@ -29,7 +31,7 @@ This site is my central hub — part résumé, part portfolio, part playground �
 
 ---
 
-## 📂 Sections
+## Sections
 
 - **Hero Section** — A welcoming intro with a headline, personal photo, and quick navigation.
 - **Call To Action (CTA)** — Center-aligned imagery, tagline, résumé download button, and collaboration invites.
@@ -38,7 +40,7 @@ This site is my central hub — part résumé, part portfolio, part playground �
 
 ---
 
-## 📖 Viewing the Project
+## Viewing the Project
 
 This repository serves as **documentation** for my personal portfolio site and as an opportunity for others to view the code, structure, and design decisions behind it.  
 
@@ -55,5 +57,6 @@ Please note: This is a personal project, not an open-source template.
 
 ---
 
-## 📸 Preview
-*(_Add a screenshot of the homepage here once deployed_)*
+## Preview
+
+![Preview](page_preview.png)
