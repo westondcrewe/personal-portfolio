@@ -1,3 +1,5 @@
+// hook that dictates behavior when mouse hovers over elements
+// ex: when user hovers on a project with more than 4 skills, the list of skills expands to display all of them
 'use client';
 
 import { useState, HTMLAttributes } from 'react';

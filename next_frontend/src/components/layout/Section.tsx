@@ -1,3 +1,4 @@
+// layout for each section (about me, skills, etc)
 'use client';
 
 import { FC, ReactNode } from 'react';
@@ -7,9 +8,7 @@ interface SectionProps {
   id?: string;
   className?: string; 
 }
-
 const Section: FC<SectionProps> = ({children, id, className = ''}) => {
-//export default function Section({ children, id, className = '' }: Section) {
   return (
     <section
       id={id}

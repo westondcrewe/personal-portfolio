@@ -1,3 +1,5 @@
+// top of landing page (and any other endpoint I may decide to add)
+// quicklinks to diff sections (/endpoints)
 'use client';
 
 import { FC, useState } from 'react';

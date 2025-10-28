@@ -1,5 +1,4 @@
-// Hero Section
-// basically an About Me component
+// about me Section
 'use client';
 // imports
 import Image from 'next/image';
@@ -13,7 +12,7 @@ export const socialLinks = [
     icon: <Github size={24} />,
   },
   {
-    href: 'https://www.linkedin.com/in/weston-crewe-a7a156212/',
+    href: 'https://www.linkedin.com/in/weston-crewe/',
     label: 'LinkedIn',
     icon: <Linkedin size={24} />,
   },
@@ -73,7 +72,7 @@ export default function HeroSection() {
           <h1 className="underline text-4xl font-bold text-gray-900 mb-4 ">Weston Crewe</h1>
           <p className="text-lg text-gray-700 mb-6">
             Hi! Thanks for checking out my portfolio. I&apos;m a new college grad and
-            aspiring (unemployed) software engineer who is passionate about
+            aspiring software engineer who is passionate about
             developing meaningful human connections in an increasingly digital
             professional landscape. I made this portfolio initially to get my hands
             dirty with Next.js web app development, but I also see it as a fun way

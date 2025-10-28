@@ -1,3 +1,4 @@
+// bottom of landing page (and any other endpoint I may decide to add)
 'use client';
 
 import Link from 'next/link';
