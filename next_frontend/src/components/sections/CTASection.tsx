@@ -59,13 +59,13 @@ export default function CTASection() {
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
               {/* DJ youtube audio downloading app */}
               <a
-                href="https://github.com/westondcrewe/DJ-YouTube-Audio-Downloader"
+                href="https://github.com/westondcrewe/lankloop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-md text-gray-700 hover:text-blue-400 hover:underline"
               >
                 <Github size={20} />
-                <span>DJ YouTube Audio Downloader</span>
+                <span>LANKLoop - Keeping up with your close circle</span>
               </a>
               {/* Another project
               <a

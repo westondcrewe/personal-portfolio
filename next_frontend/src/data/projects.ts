@@ -22,7 +22,7 @@ export const projects = [
       description: 'Final project for CS143 Big Data for Prof. Izbicki at CMC; Full-Stack web application development including automated data generation for dummy userbase. Functioning API endpoints for searching, posting, and creation/authenticating users. Made serveral database indexes to make nontrivial queries on 10 million rows of data run in 0.5ms',
       image: '',
       link: 'https://github.com/westondcrewe/csci143-final-project',
-      tags: ['Web App Development', 'Python', 'Docker Containerization', 'Flask', 'Database Engineering', 'PostgreSQL','SQL'],
+      tags: ['Full-Stack Web App Dev', 'Python', 'Docker Containerization', 'Flask', 'Database Engineering', 'PostgreSQL','SQL'],
     },
     {
       id: '4',
@@ -39,6 +39,14 @@ export const projects = [
       image: '/deficit_project_cover.jpeg',
       link: 'https://www.lowe-down.org/deficit-picture-likely-worse-than-it-seems/',
       tags: ['Data Analysis', 'Data Visualization', 'SQL'],
+    },
+    {
+      id: '6',
+      title: 'DJ Setlist Downloader',
+      description: 'A free and easy way for DJs to get soundfiles for all of their tracks - Upload a screenshot and get your MP3 in minutes!',
+      image: '/deficit_project_cover.jpeg',
+      link: 'https://github.com/westondcrewe/DJ-YouTube-Audio-Downloader',
+      tags: ['Full-Stack Web App Dev', 'Python', 'Computer Vision'],
     },
     {
       id: '100',
